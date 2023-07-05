@@ -1,0 +1,2 @@
+arm-none-eabi-ar qc libTimer.a CMakeFiles/Timer.dir/Timer.cpp.obj
+/opt/homebrew/bin/arm-none-eabi-ranlib libTimer.a

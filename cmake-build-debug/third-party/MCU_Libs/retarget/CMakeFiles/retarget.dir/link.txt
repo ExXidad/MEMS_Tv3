@@ -1,0 +1,2 @@
+arm-none-eabi-ar qc libretarget.a CMakeFiles/retarget.dir/retarget.c.obj
+/opt/homebrew/bin/arm-none-eabi-ranlib libretarget.a

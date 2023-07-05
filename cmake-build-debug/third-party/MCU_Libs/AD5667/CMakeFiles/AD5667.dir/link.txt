@@ -1,0 +1,2 @@
+arm-none-eabi-ar qc libAD5667.a CMakeFiles/AD5667.dir/AD5667.cpp.obj
+/opt/homebrew/bin/arm-none-eabi-ranlib libAD5667.a

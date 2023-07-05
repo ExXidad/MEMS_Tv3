@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="etl"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\third-party\;CMake Files\third-party\MCU_Libs\;CMake Files\third-party\MCU_Libs\CMSIS-DSP\;CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\;CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\BasicMathFunctions\;CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\ComplexMathFunctions\;CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\QuaternionMathFunctions\;CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\ControllerFunctions\;CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\FastMathFunctions\;CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\FilteringFunctions\;CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\MatrixFunctions\;CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\StatisticsFunctions\;CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\SupportFunctions\;CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\TransformFunctions\;CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\CommonTables\;CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\SVMFunctions\;CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\BayesFunctions\;CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\DistanceFunctions\;CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\InterpolationFunctions\;CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\WindowFunctions\;CMake Files\third-party\MCU_Libs\retarget\;CMake Files\third-party\MCU_Libs\GPIO\;CMake Files\third-party\MCU_Libs\Timer\;CMake Files\third-party\MCU_Libs\etl\;CMake Files\third-party\MCU_Libs\etl\cmake\;CMake Files\third-party\MCU_Libs\etl\.git\;CMake Files\third-party\MCU_Libs\etl\.git\refs\;CMake Files\third-party\MCU_Libs\etl\.git\refs\heads\;CMake Files\third-party\MCU_Libs\DoubleBuffer\;CMake Files\third-party\MCU_Libs\AD5667\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/xidad/CLionProjects/Terminal_v3/MEMS/cmake-build-debug/third-party/MCU_Libs/etl"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xidad/CLionProjects/Terminal_v3/MEMS/cmake-build-debug/third-party/MCU_Libs/etl/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xidad/CLionProjects/Terminal_v3/MEMS/cmake-build-debug/third-party/MCU_Libs/etl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xidad/CLionProjects/Terminal_v3/MEMS/cmake-build-debug/third-party/MCU_Libs/etl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xidad/CLionProjects/Terminal_v3/MEMS/cmake-build-debug/third-party/MCU_Libs/etl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third-party\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/MCU_Libs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third-party\MCU_Libs\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/MCU_Libs/CMSIS-DSP/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third-party\MCU_Libs\CMSIS-DSP\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/MCU_Libs/CMSIS-DSP/Source/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/MCU_Libs/CMSIS-DSP/Source/configDsp.cmake">
+			<Option virtualFolder="CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/MCU_Libs/CMSIS-DSP/Source/BasicMathFunctions/Config.cmake">
+			<Option virtualFolder="CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\BasicMathFunctions\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/MCU_Libs/CMSIS-DSP/Source/ComplexMathFunctions/Config.cmake">
+			<Option virtualFolder="CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\ComplexMathFunctions\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/MCU_Libs/CMSIS-DSP/Source/QuaternionMathFunctions/Config.cmake">
+			<Option virtualFolder="CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\QuaternionMathFunctions\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/MCU_Libs/CMSIS-DSP/Source/ControllerFunctions/Config.cmake">
+			<Option virtualFolder="CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\ControllerFunctions\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/MCU_Libs/CMSIS-DSP/Source/FastMathFunctions/Config.cmake">
+			<Option virtualFolder="CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\FastMathFunctions\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/MCU_Libs/CMSIS-DSP/Source/FilteringFunctions/Config.cmake">
+			<Option virtualFolder="CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\FilteringFunctions\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/MCU_Libs/CMSIS-DSP/Source/MatrixFunctions/Config.cmake">
+			<Option virtualFolder="CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\MatrixFunctions\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/MCU_Libs/CMSIS-DSP/Source/StatisticsFunctions/Config.cmake">
+			<Option virtualFolder="CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\StatisticsFunctions\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/MCU_Libs/CMSIS-DSP/Source/SupportFunctions/Config.cmake">
+			<Option virtualFolder="CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\SupportFunctions\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/MCU_Libs/CMSIS-DSP/Source/TransformFunctions/Config.cmake">
+			<Option virtualFolder="CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\TransformFunctions\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/MCU_Libs/CMSIS-DSP/Source/CommonTables/Config.cmake">
+			<Option virtualFolder="CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\CommonTables\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/MCU_Libs/CMSIS-DSP/Source/SVMFunctions/Config.cmake">
+			<Option virtualFolder="CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\SVMFunctions\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/MCU_Libs/CMSIS-DSP/Source/BayesFunctions/Config.cmake">
+			<Option virtualFolder="CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\BayesFunctions\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/MCU_Libs/CMSIS-DSP/Source/DistanceFunctions/Config.cmake">
+			<Option virtualFolder="CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\DistanceFunctions\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/MCU_Libs/CMSIS-DSP/Source/InterpolationFunctions/Config.cmake">
+			<Option virtualFolder="CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\InterpolationFunctions\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/MCU_Libs/CMSIS-DSP/Source/WindowFunctions/Config.cmake">
+			<Option virtualFolder="CMake Files\third-party\MCU_Libs\CMSIS-DSP\Source\WindowFunctions\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/MCU_Libs/retarget/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third-party\MCU_Libs\retarget\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/MCU_Libs/GPIO/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third-party\MCU_Libs\GPIO\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/MCU_Libs/Timer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third-party\MCU_Libs\Timer\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/MCU_Libs/etl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third-party\MCU_Libs\etl\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/MCU_Libs/etl/cmake/GetGitRevisionDescription.cmake">
+			<Option virtualFolder="CMake Files\third-party\MCU_Libs\etl\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/MCU_Libs/etl/cmake/GetGitRevisionDescription.cmake.in">
+			<Option virtualFolder="CMake Files\third-party\MCU_Libs\etl\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/MCU_Libs/etl/cmake/helpers.cmake">
+			<Option virtualFolder="CMake Files\third-party\MCU_Libs\etl\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/MCU_Libs/etl/.git/HEAD">
+			<Option virtualFolder="CMake Files\third-party\MCU_Libs\etl\.git\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/MCU_Libs/etl/.git/refs/heads/master">
+			<Option virtualFolder="CMake Files\third-party\MCU_Libs\etl\.git\refs\heads\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/MCU_Libs/DoubleBuffer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third-party\MCU_Libs\DoubleBuffer\"/>
+		</Unit>
+		<Unit filename="/Users/xidad/CLionProjects/Terminal_v3/MEMS/third-party/MCU_Libs/AD5667/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third-party\MCU_Libs\AD5667\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
